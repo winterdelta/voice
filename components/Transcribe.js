@@ -110,14 +110,6 @@ export default function Record () {
   return (
     <div className={styles.container}>
       <div className={styles.component}>
-        {/* <div className={styles.logo}>
-          <div className={styles.logoText}>
-            <SendAltFilled24 />
-          </div>
-        </div> */}
-        {/* <div className={styles.ping}>
-          <span className={styles.pingText}>VOICEMAIL</span>
-        </div> */}
         <div className={styles.playerContainer}>
           {audioBlob && (
             <div className={styles.player}>
@@ -134,15 +126,6 @@ export default function Record () {
           )}
         </div>
         <div className={styles.row}>
-          {/* <div className={styles.play} onClick={togglePlayPause}>
-            {blobURL ? (
-              isPlaying ? (
-                <PauseOutline24 />
-              ) : (
-                <PlayOutline24 />
-              )
-            ) : null}
-          </div> */}
           <div className={styles.record}>
             <div
               className={styles.recordText}

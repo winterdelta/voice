@@ -33,11 +33,11 @@ module.exports = async (req, res) => {
     // await s3.upload(s3Params).promise()
 
     const dbs = await client.query(
-      q.Create(q.Collection('voice'), {
+      q.Create(q.Collection('voice-demo'), {
         data: {
           text: Transcript,
-          audio: audioURLFromS3,
-        //   email: emailAddress
+          audio: audioURLFromS3
+          //   email: emailAddress
         }
       })
     )

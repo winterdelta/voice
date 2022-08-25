@@ -1,0 +1,27 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	flex-direction: column;
+	margin-top: 100px;
+}
+
+.label {
+	color: var(--drkgry);
+	margin-bottom: 30px;
+}
+
+.btnLink {
+	background-color: var(--bckgrndAlt);
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	background-color: black;
+	color: white;
+    font-weight: bold;
+}

@@ -16,7 +16,7 @@
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-    margin-top: 30px;
+    margin-top: 100px;
 }
 
 .ping {
@@ -180,9 +180,9 @@
 	width: calc(100% - 40px);
 	/* border: 1px solid var(--drkgry); */
 	border: none;
-	background-color: var(--prpl);
+	background-color: var(--bckgrndAlt);
 	/* background-color: transparent; */
-	color: var(--crm);
+	color: var(--blck);
 	padding: 16px;
 	border-radius: 20px;
 	font-size: 14px;
@@ -262,7 +262,7 @@
 	margin-top: -20px;
 	/* margin-right: 203px; */
 	/* position: absolute; */
-	background-color: var(--bckgrnd);
+	background-color: var(--bckgrndAlt);
 	border: 2px solid var(--gravity);
 	border-radius: 25px;
 	width: fit-content;

@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Info from '../components/Info'
 import Nav from '../components/Nav'
 import Transcribe from '../components/Transcribe'
 import styles from '../styles/Home.module.css'
@@ -15,6 +16,7 @@ export default function Home () {
       <main className={styles.main}>
         <Nav />
         <Transcribe />
+        <Info />
       </main>
 
       <footer className={styles.footer}></footer>
