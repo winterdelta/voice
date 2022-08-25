@@ -117,7 +117,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(242, 242, 242);
   padding: 20px;
   font-weight: bold;
   letter-spacing: -2px;
