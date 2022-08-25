@@ -164,7 +164,7 @@
 	background-color: var(--bckgrndAlt);
 	width: 50px;
 	height: 50px;
-	border: 2px solid var(--gravity);
+	border: 1px solid var(--gravity);
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
@@ -230,7 +230,7 @@
 	background-color: var(--bckgrndAlt);
 	width: 70px;
 	height: 70px;
-	border: 2px dashed var(--lghtgry);
+	border: 1px dashed var(--lghtgry);
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
@@ -243,7 +243,7 @@
 }
 
 .logoBtnTextActive {
-	border: 2px solid var(--gravity);
+	border: 1px solid var(--gravity);
 	color: var(--gravity);
 }
 
@@ -263,7 +263,7 @@
 	/* margin-right: 203px; */
 	/* position: absolute; */
 	background-color: var(--bckgrndAlt);
-	border: 2px solid var(--gravity);
+	border: 1px solid var(--gravity);
 	border-radius: 25px;
 	width: fit-content;
 	height: 100%;
