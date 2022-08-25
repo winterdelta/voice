@@ -1,3 +1,26 @@
+:root {
+	--crm: #f1f0e2;
+	--drkpnk: #dbb4a2;
+	--ggrn: #f1f0e2;
+	--gggrn: #f1f0e2;
+	--blck: black;
+	--bckgrnd: #111114;
+	--bckgrndAlt: white;
+	--drkgry: #4a4a47;
+	--lghtgry: #c4c4c4;
+	--chrcl: #1a1a1a;
+	--bl: #998a8a;
+	--rd: #f1f0e2;
+	--blue: #f1f0e2;
+	--cb: #f1f0e2;
+	--tbg: #f1f0e2;
+	/* --sonar: #ccf3ff; */
+	--sonar: #ccfff5;
+	--hydra: #ccfff5;
+	--gravity: black;
+	--prpl: #17171c;
+}
+
 html,
 body {
   padding: 0;
