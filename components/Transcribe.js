@@ -116,9 +116,15 @@ export default function Record () {
               <div className={styles.playerBtn} onClick={togglePlayPause}>
                 {blobURL ? (
                   isPlaying ? (
-                    <PauseFilled size='16' />
+                    <>
+                      <PauseFilled size='16' />
+                      PAUSE
+                    </>
                   ) : (
-                    <PlayFilledAlt size='16' />
+                    <>
+                      <PlayFilledAlt size='16' />
+                      PLAY
+                    </>
                   )
                 ) : null}
               </div>
@@ -133,9 +139,13 @@ export default function Record () {
             >
               <div className={isRecording ? styles.pulse : styles.micBtn}>
                 {!isRecording ? (
-                  <Microphone size='36' />
+                  <>
+                    <Microphone size='36' />
+                  </>
                 ) : (
-                  <StopFilledAlt size='32' />
+                  <>
+                    <StopFilledAlt size='32' />
+                  </>
                 )}
               </div>
             </div>
@@ -155,24 +165,25 @@ export default function Record () {
                 onChange={handleTextAreaChange}
               ></textarea>
 
-              <button className={styles.sendBtn} type='submit'>
+              {/* <button className={styles.sendBtn} type='submit'>
                 <div className={styles.logoBtnActive}>
                   <div className={styles.logoBtnTextActive}>
                     <div className={audioBlob ? styles.pulse : null}>
                       <SendAltFilled size='24' />
                     </div>
+                    <SendAltFilled size='24' />
                   </div>
                 </div>
-              </button>
+              </button> */}
             </form>
           ) : null}
-          {!audioBlob && (
+          {/* {!audioBlob && (
             <div className={styles.logoBtn}>
               <div className={styles.logoBtnText}>
                 <SendAltFilled size='24' />
               </div>
             </div>
-          )}
+          )} */}
         </div>
       </div>
     </div>
