@@ -62,7 +62,8 @@ export default async function handler (req, res) {
   //     })
 
   const response = await deepgram.transcription.preRecorded(source, {
-    punctuate: true
+    punctuate: true,
+    tier: 'enhanced'
   })
 
   const trans = response.results.channels[0].alternatives[0].transcript
