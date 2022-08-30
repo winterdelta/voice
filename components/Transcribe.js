@@ -110,7 +110,7 @@ export default function Record () {
   return (
     <div className={styles.container}>
       <div className={styles.component}>
-        <div className={styles.playerContainer}>
+        {/* <div className={styles.playerContainer}>
           {audioBlob && (
             <div className={styles.player}>
               <div className={styles.playerBtn} onClick={togglePlayPause}>
@@ -130,7 +130,7 @@ export default function Record () {
               </div>
             </div>
           )}
-        </div>
+        </div> */}
         <div className={styles.row}>
           <div className={styles.record}>
             <div

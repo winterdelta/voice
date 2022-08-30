@@ -15,7 +15,7 @@ export default function Home () {
       <main className={styles.main}>
         <Nav />
         <Transcribe />
-        <Info />
+        {/* <Info /> */}
       </main>
 
       <footer className={styles.footer}></footer>
